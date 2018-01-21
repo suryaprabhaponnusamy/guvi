@@ -13,7 +13,7 @@ c++;
 }
 if(c==2)
 {
-printf("%d is prime",n;
+printf("%d is prime",n);
 }
 else
 {
