@@ -5,11 +5,10 @@ int a,b;
 printf("enter the values of and b: ");
 scanf("%d%d",&a,&b);
 {
-a=a-b;
-b=a+b;
-a=b-a;
+temp=a;
+  a=b;
+  b=temp;
 }
-printf("before swapping%d",a,b);
-printf("after swapping%d",a,b);
+printf("%d%d",a,b);
 return 0;
 }
