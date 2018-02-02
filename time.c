@@ -1,10 +1,13 @@
 #include<stdio.h>
-int main(void)
+int main()
 {
-int time=0,minutes=0,hours=0;
-time=130;
-minutes=time%60;
-hours=(time.minutes)/60;
-printf("total minutes%d=%dtime and minutes%d",time,hours,minutes);
-return 0;
-}
+int n,min,hours;
+  printf("enter the minutes: ");
+  scanf("%d",&min);
+  {
+    hour=min/60;
+ n=min%60;
+  }
+    printf("the hour and minutes are %d%d",hour,n);
+    return 0;
+  }
